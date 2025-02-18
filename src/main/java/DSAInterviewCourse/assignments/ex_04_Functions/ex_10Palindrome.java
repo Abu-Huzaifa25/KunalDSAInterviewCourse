@@ -1,8 +1,6 @@
 package DSAInterviewCourse.assignments.ex_04_Functions;
 
-import java.lang.foreign.MemorySegment;
-
-public class EX_10Palindrome {
+public class ex_10Palindrome {
     public static void main(String[] args) {
 //        String str = "madam";
 //        if (palindromeWord(str)){

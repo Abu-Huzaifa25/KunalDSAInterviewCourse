@@ -1,6 +1,6 @@
 package DSAInterviewCourse.assignments.ex_04_Functions;
 
-public class EX_14SumOfFirstNaturalNums {
+public class ex_14SumOfFirstNaturalNums {
 
 
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package DSAInterviewCourse.assignments.ex_04_Functions;
 
-public class EX_13PrimeRange {
+public class ex_13PrimeRange {
 
 
     public static void main(String[] args) {
