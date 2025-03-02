@@ -13,14 +13,6 @@ public class JavaAs15 {
 
         int n = mat.length;
         int sum = 0;
-//        for (int i = 0; i < n; i++){
-//            int j = n - i - 1;
-//
-//            sum += mat[i][i] + (i == j  ? 0 : mat[i][j]);
-//
-//        }
-
-
 
         for (int i = 0; i < n; i++){
             for (int j = 0; j < n; j++){

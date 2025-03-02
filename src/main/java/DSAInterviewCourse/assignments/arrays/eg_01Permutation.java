@@ -4,15 +4,21 @@ import java.util.Arrays;
 
 public class eg_01Permutation {
     public static void main(String[] args) {
-        int[] nums = {0, 2, 1, 5, 3, 4};
 
-        // not solved
-        System.out.println(Arrays.toString(permutationBuildArray(nums)));
+        System.out.println(Arrays.toString(new int[]{0,2,1,5,3,4}));
     }
 
 
-    static int [] permutationBuildArray(int [] nums){
-        return nums;
+    static int[] buildArray(int[] nums) {
+
+        int [] ans = new int[nums.length];
+
+        for (int i = 0; i <  nums.length; i++){
+            ans[i] = nums[i];
+            ans[i] = ans[nums[i]];
+        }
+
+        return ans;
 
     }
 }

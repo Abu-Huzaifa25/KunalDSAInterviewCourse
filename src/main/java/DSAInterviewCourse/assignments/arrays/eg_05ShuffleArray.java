@@ -13,23 +13,39 @@ public class eg_05ShuffleArray {
      */
     public static void main(String[] args) {
 
-        int[] arr = {2, 5, 1, 3, 4, 7};
+        int[] arr = {2, 5, 1, 3, 4, 7}; // [2,3,5,4,1,7]
         int targetElement = 3;
         System.out.println(Arrays.toString(shuffle(arr, targetElement) ));
 
     }
 
     public static int[] shuffle(int[] nums, int n) {
+
+//        int[] m = new int[nums.length];
+//        for (int i = 0; i < nums.length ; i++){
+//            m[i] = nums[i];
+//
+//        }
+//        for (int i = n-1 ; i < nums.length; i++){
+//            m[ i] = nums[i];
+//        }
+//        return m;
+
+
+        int [] output = new int [nums.length];
+        int x = 0;
+        int y = n;
         int index = 0;
-
-        int[] arr = new int[2 * n];
-
-
-        for (int i = 0; i < n; i++){
-            arr[index++] = nums[i];
-            arr[index++] = nums[i + n];
+        while ( index < nums.length ){
+            output[index] = nums[x];
+            index++;
+            output[index] = nums[y];
+            index++;
+            x++;
+            y++;
         }
+        return output;
 
-        return arr;
+
     }
 }
