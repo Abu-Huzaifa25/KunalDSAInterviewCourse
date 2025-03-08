@@ -12,9 +12,10 @@ public class RotateArray {
     public static void main(String[] args) {
 
         // Output: [5,6,7,1,2,3,4]
-        int [] array = {1,2,3,4,5,6,7};
-        rotateK_Time(array,3);
-        System.out.println(Arrays.toString(array));
+//        int [] array = {1,2,3,4,5,6,7};
+//        rotateK_Time(array,3);  //
+//        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.deepToString(new int[1][1]));
     }
 
 
@@ -35,11 +36,12 @@ public class RotateArray {
 
     public static void rotateK_Time(int [] nums, int k){
         int n = nums.length;
-        k %= n; // 3 % 5 = 3
+        k %= n; // 3 % 5 = 3 //  rotation time///////////////////
 
-        reverse(nums, 0, nums.length - 1);
-        reverse(nums , 0 , k - 1);
-        reverse(nums, k, n -1 );
+        reverse(nums, 0, nums.length - 1);//  // [ 4,3, 2, 1 }
+        // index to last index [ 1,2,3,4,5,6,7 ] -> 1.st [ 7,1,2,3,4,5,6 ] -> 2nd [ 6,7,1,2,3,4,5 ] 3rd [5,7,1,2,3,4 ]
+        reverse(nums , 0 , k - 1); // st
+        reverse(nums, k, n -1 ); // rotate n - 1 ;
     }
 
     public static void reverse(int [] nums, int start, int end ){

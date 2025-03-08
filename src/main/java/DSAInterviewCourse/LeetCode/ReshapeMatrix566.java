@@ -26,6 +26,16 @@ public class ReshapeMatrix566 {
             return mat;
         }
 
+        for(int i = 0; i <  mat.length; i++){
+            for (int j = 0; j < mat.length; j++){
+                 reshapeMatrix[row][col] = mat[i][j];
+
+               
+
+            }
+
+        }
+
 
 
 

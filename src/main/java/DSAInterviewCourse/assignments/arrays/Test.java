@@ -11,9 +11,21 @@ public class Test {
         };
 
 //        System.out.println(Arrays.toString(getIndex(arr, 2)));
-        printColumns(arr,0);
+//        printColumns(arr,0);
+
+        int [] colors = {2,0,2,1,1,0};
+        sortColors(colors);
+
+    }
+
+    static void sortColors(int [] nums){
+        int temp = nums[0];
+        int [] arr = new int[nums.length];
+        for (int i =0; i < nums.length; i++){
 
 
+        }
+        System.out.println(Arrays.toString(nums));
     }
 
     public static void printColumns(int[][] arr , int colIndex){
