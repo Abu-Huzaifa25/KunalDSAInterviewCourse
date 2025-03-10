@@ -4,7 +4,7 @@ public class CheckPangram {
     public static void main(String[] args) {
 
         String sentence = "thequickbrownfoxjumpsoverthelazydog";
-        System.out.println(checkIfPangram(sentence));
+        System.out.println(checkIfPangram2(sentence));
     }
 
     public static boolean checkIfPangram(String sentence) {
@@ -26,5 +26,14 @@ public class CheckPangram {
 
         }
         return found;
+    }
+    public static boolean checkIfPangram2(String sentence){
+        for(char c= 'a';c<= 'z';c++){
+            int index = sentence.indexOf(c);
+            if(index == -1){
+                return false;
+            }
+        }
+        return true;
     }
 }
