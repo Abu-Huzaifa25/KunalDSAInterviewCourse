@@ -36,7 +36,11 @@ public class FindFirstAndLastPosition34 {
                 end = mid - 1;
             }
         }
-        return start;
+        if (nums[start] == target) {
+            return start;
+        } else {
+            return -1;
+        }
     }
     public static int findLastOccurance(int [] nums , int target){
         int start = 0;
@@ -53,7 +57,11 @@ public class FindFirstAndLastPosition34 {
             }
 
         }
-        return end;
+        if(nums[end] == target) {
+            return end;
+        } else {
+            return -1;
+        }
     }
 
 }

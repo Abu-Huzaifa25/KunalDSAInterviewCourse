@@ -1,37 +1,68 @@
 package DSAInterviewCourse.LeetCode;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class TestCases {
     public static void main(String[] args) {
-        int[] nums = {1,4};
-        int target = 4;
-
-        System.out.println(Arrays.toString(lastPosition( nums, target)));
+        int[] nums = {3,3,3,3,3,3,3};//
+//        int target = 3;
+//        System.out.println(Arrays.toString( searchRange(nums, 3)));
     }
 
-    public static int [] lastPosition(int [] nums, int target){
-//        int start = 0, end = nums.length-1;
 
-        List<Integer> list = new ArrayList<>();
-        for (int i = 0; i < nums.length; i++){
-            if (nums[i] == target){
-                list.add(i);
-            }
-        }
-        if (list.isEmpty()){
-            return new int[]{-1,-1};
-        }
-        int[] ar = new int[list.size()];
-        for (int i = 0; i < list.size(); i++) {
-            ar[i] = list.get(i);
-            if (list.size() <= 1 ){
-                return new int[]{i, i};
-            }
-        }
-        return ar;
 
-    }
+//    public static int [] searchRange(int [] nums, int target){
+//
+//        if (nums.length == 0 || nums[0] > target || nums[nums.length-1] < target){
+//            return new int[]{-1, -1};
+//        }
+//        int firstIndex = firstOccurrence(nums, target);
+//        int lastIndex = lastOccurrence(nums, target);
+//        return new int[]{firstIndex, lastIndex};
+//    }
+//
+//    public static int firstOccurrence(int [] nums, int target){
+//        int start = 0,end = nums.length-1;
+//
+//        while (start <= end ){
+//            int mid = start + ( end - start) / 2;
+//            if ( nums[mid] > target ){
+//               end = mid - 1;
+//            } else if (nums[mid] < target ) {
+//                start = mid + 1;
+//            }else {
+//                end = mid - 1;
+//            }
+//        }
+//        if (nums[start] == target ){
+//            return start;
+//        }else {
+//            return -1;
+//        }
+//
+//    }
+//
+//
+//    public static int lastOccurrence(int [] nums, int target){
+//        int start = 0,end = nums.length-1;
+//        while (start <= end ){
+//            int mid = start + ( end - start) / 2;
+//            if ( nums[mid] > target ){
+//                end = mid - 1;
+//            } else if (nums[mid] < target ) {
+//                start = mid + 1;
+//            }else {
+//                start = mid + 1;
+//            }
+//        }
+//        if (nums[end] == target ){
+//            return end;
+//        }else {
+//            return -1;
+//        }
+//
+//    }
+
+
+
 }
