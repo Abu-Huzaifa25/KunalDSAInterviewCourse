@@ -3,7 +3,7 @@ package DSAInterviewCourse.LeetCode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Try {
+public class MinMaxLuckyNumber {
     public static void main(String[] args) {
         int[][] arr = {
                 {3, 7, 8},
