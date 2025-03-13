@@ -4,11 +4,7 @@ import java.util.Arrays;
 
 public class MissingNumber268 {
     public static void main(String[] args) {
-        int [] arr = {3,0,1};
-        System.out.println(Arrays.toString(sort(arr)));
-
-        System.out.println("------------------- >>>.  ----------- ");
-
+        int [] arr = {0};
         System.out.println(missingNumber(arr));
 
     }
@@ -22,7 +18,7 @@ public class MissingNumber268 {
                 return i ;
             }
         }
-        return n + 1;
+        return  n;
     }
 
     public static int[] sort(int[] nums) {
