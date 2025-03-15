@@ -1,5 +1,8 @@
 package DSAInterviewCourse.LeetCode;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class KthMissingPositiveNumber1539 {
     public static void main(String[] args) {
         int[] arr = {2, 3, 4, 7, 11};
@@ -16,6 +19,7 @@ public class KthMissingPositiveNumber1539 {
             if(i<=k) k++ ; else break;
         }
         return k;
+
     }
 
 
