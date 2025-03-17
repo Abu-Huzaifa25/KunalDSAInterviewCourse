@@ -1,6 +1,5 @@
-package DSAInterviewCourse.video.v15_binarySearchAlgorithmInterviewQuest;
+package DSAInterviewCourse.video.binarySearchAlgorithmInterviewQuest;
 
-import java.sql.Array;
 import java.util.Arrays;
 
 public class FindTargetIn2DArray {

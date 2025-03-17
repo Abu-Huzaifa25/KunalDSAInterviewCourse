@@ -1,4 +1,4 @@
-package DSAInterviewCourse.video.v12_arraysAndArrayList;
+package DSAInterviewCourse.video.arraysAndArrayList;
 
 import java.util.Arrays;
 

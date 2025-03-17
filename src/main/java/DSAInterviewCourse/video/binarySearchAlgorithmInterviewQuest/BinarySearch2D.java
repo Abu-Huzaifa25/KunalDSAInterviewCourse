@@ -1,4 +1,4 @@
-package DSAInterviewCourse.video.v15_binarySearchAlgorithmInterviewQuest;
+package DSAInterviewCourse.video.binarySearchAlgorithmInterviewQuest;
 
 public class BinarySearch2D {
     public static void main(String[] args) {

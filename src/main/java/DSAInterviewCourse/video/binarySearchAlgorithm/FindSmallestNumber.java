@@ -1,4 +1,4 @@
-package DSAInterviewCourse.video.v14_binarySearchAlgorithm;
+package DSAInterviewCourse.video.binarySearchAlgorithm;
 
 public class FindSmallestNumber {
     public static void main(String[] args) {

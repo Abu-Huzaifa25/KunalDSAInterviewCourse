@@ -1,4 +1,4 @@
-package DSAInterviewCourse.video.v15_binarySearchAlgorithmInterviewQuest;
+package DSAInterviewCourse.video.binarySearchAlgorithmInterviewQuest;
 
 public class Ceiling {
     public static void main(String[] args) {

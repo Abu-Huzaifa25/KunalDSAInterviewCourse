@@ -1,4 +1,4 @@
-package DSAInterviewCourse.video.v14_binarySearchAlgorithm;
+package DSAInterviewCourse.video.binarySearchAlgorithm;
 
 public class Findlargenumebr {
     public static void main(String[] args) {

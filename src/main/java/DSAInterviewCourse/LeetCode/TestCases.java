@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class TestCases {
     public static void main(String[] args) {
-        int[] nums = {3,3,3,3,3,3,3};//
+        int[] nums = {2,3,4,5,6,1,4};//
 //        int target = 3;
 //        System.out.println(Arrays.toString( searchRange(nums, 3)));
     }
@@ -62,6 +62,11 @@ public class TestCases {
 //        }
 //
 //    }
+
+
+
+
+
 
 
 

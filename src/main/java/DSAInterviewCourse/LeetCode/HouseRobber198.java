@@ -1,7 +1,5 @@
 package DSAInterviewCourse.LeetCode;
 
-import DSAInterviewCourse.video.v12_arraysAndArrayList.Max;
-
 public class HouseRobber198 {
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package DSAInterviewCourse.video.v15_binarySearchAlgorithmInterviewQuest;
+package DSAInterviewCourse.video.binarySearchAlgorithmInterviewQuest;
 
 import java.util.Arrays;
 
